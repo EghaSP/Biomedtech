@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eghasp.biomedtech.DetailActivity"
+    android:id="@+id/techdetail"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            tools:text="@string/tech_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="15dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            />
+
+         <ImageView
+             android:id="@+id/img_item_photo"
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             android:layout_gravity="center"
+             android:layout_margin="15dp"
+             />
+
+         <TextView
+            android:id="@+id/tv_item_detail"
+            tools:text="@string/detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:textColor="@color/colorPrimaryDark"
+            android:layout_margin="25dp"
+            android:textAlignment="inherit"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"/>
+
+        </LinearLayout>
+
+</ScrollView>
